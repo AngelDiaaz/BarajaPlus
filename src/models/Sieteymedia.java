@@ -80,7 +80,7 @@ public class Sieteymedia extends AbstractGame {
 			}else if(jugador1.puntos < cpu.puntos && cpu.puntos < 7.5) {
 				System.out.println("Has perdido!!! La CPU ha ganado");
 			}else if(jugador1.puntos > 7.5) {
-				System.out.println("Has perdido " + jugador1.nombre + "te has pasado de 7 y medio");
+				System.out.println("Has perdido " + jugador1.nombre + " te has pasado de 7 y medio");
 			}else if(cpu.puntos > 7.5) {
 				System.out.println("Has ganado!!! La CPU se ha pasado de 7 y medio");
 			}

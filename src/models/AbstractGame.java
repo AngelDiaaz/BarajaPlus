@@ -19,11 +19,11 @@ public abstract class AbstractGame {
 		this.ronda = ronda;
 	}
 
-	public abstract void bienvenida(); //Insertar a clase hija clase sieteymedia
+	public abstract void bienvenida(); 
 	
 	public abstract void menuPrincipal();
 	
-	public abstract AbstractPlayer nextTurno(); //DUDAAAA Como se usa este metodo
+	public abstract AbstractPlayer nextTurno(); 
 	
 	public abstract void start();
 	
